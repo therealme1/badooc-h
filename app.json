@@ -10,11 +10,16 @@
   "repository": "https://github.com/jane-doe/small-sharp-tool",
   "logo": "https://small-sharp-tool.com/logo.svg",
   "success_url": "/welcome",
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": ""
-    }
+      "env": {
+        "GOOGLE_CLIENT_ID": {
+            "description": "Google Project's Client ID"
+        },
+        "GOOGLE_CLIENT_SECRET": {
+            "description": "Google Project's Client Secret"
+        },
+        "GOOGLE_REDIRECT_URL": {
+            "description": "Google Project's Redirect url"
+        }
   },
   "formation": {
     "web": {
