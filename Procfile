@@ -1,0 +1,1 @@
+worker: docker run --name ct -d -p 80:3000  --restart always  -e GOOGLE_CLIENT_ID='946040103599-ldfojliki4mrde8h2dt4lqbahm2qo3f3.apps.googleusercontent.com' -e GOOGLE_CLIENT_SECRET='zICovJ51-ObNVyxhXHoY-YtK' -e GOOGLE_REDIRECT_URL='https://rapidleexh.herokuapp.com/oauthCallback'  parveenbhadoo/bhadoocloud:stable node server/server.js
